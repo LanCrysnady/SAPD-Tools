@@ -360,7 +360,7 @@
         // Format for other weapon details
         const firearms = weapons2.includes('Firearm') ? `[X] Firearm (type): ${document.getElementById("firearmType").value}` : `[ ] Firearm (type): `;
         const bluntObject = weapons2.includes('Blunt object') ? `[X] Blunt object (type): ${document.getElementById("bluntObjectType").value}` : `[ ] Blunt object (type): `;
-        const handsFeet = weapons2.includes('Hands/feet') ? `[X] Hands/feet (technique)` : `[ ] Hands/feet (technique)`;
+        const handsFeet = weapons2.includes('Hands/feet') ? `[X] Hands/feet (technique): ${document.getElementById("handsFeetTechnique").value}` : `[ ] Hands/feet (technique): `; 
         const otherWeapon = weapons2.includes('Other') ? `[X] Other: ${document.getElementById("otherWeapon").value}` : `[ ] Other: `;
 
         // Format uniform for BBCode
